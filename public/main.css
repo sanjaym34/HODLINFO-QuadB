@@ -1,0 +1,330 @@
+@import url('http://fonts.cdnfonts.com/css/asterone-demo');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;351&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 800;
+}
+
+body {
+    background-color: #212529;
+}
+
+body.light {
+    background-color: #ffffff;
+}
+
+h2, li, button {
+    font-weight: 500;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+li {
+    margin-left: -40px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 10% 0 25px;
+}
+
+/* img {
+    border-style: none;
+    vertical-align: middle;
+} */
+
+h2 {
+    font-family: 'Asterone DEMO', sans-serif;
+    font-size: 50px;
+    color: rgb(61, 198, 193);
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    opacity: 0.8;
+    font-size: 18px;
+    color: grey;
+    margin-left: 40px;
+    margin-top: -20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.finstreet {
+    color: rgb(61, 198, 193);
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+
+.logo {
+    cursor: pointer;
+    height: 50%;
+    width: 30%;
+    padding: 10px
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+button {
+    background-color: pink;
+    color: #ffffff;
+    border: 0;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.btn {
+    background-color: #2e3241;
+    border: none;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 10px;
+    padding: 6px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+
+.btn:hover {
+    text-decoration: none;
+}
+
+.telegram-button {
+    background-color: #3dc6c1;
+    color: #ffffff;
+    margin: 10px;
+    padding: 6px 20px;
+    border-radius: 10px;
+}
+
+.btn2 {
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.telegram-logo {
+    height: 15px;
+    margin-right: 10px;
+    background-color: #3dc6c1;
+}
+
+.checkbox {
+    opacity: 0;
+    position: relative;
+}
+
+.checkbox:checked + .label .ball{
+    transform: translateX(24px);
+}
+
+.label {
+    background-color: #2e3241;
+    height: 26px;
+    width: 50px;
+    display: flex;
+    border-radius: 50px;
+    position: relative;
+    padding-top: 10px;
+}
+
+.ball {
+    background-color: #3dc6c1;
+    position: absolute;
+    height: 22px;
+    width: 22px;
+    top: 2px;
+    left: 2px;
+    border-radius: 50%;
+    transition: transform 0.4s linear;
+}
+
+label.light2 {
+    background-color: #f8f9fa;
+}
+
+.container-fluid {
+    padding: 0px 30px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.average-header {
+    padding: 10px 0px;
+}
+
+.color-green {
+    color: #5dc7c2;
+}
+
+.average-header-maintext {
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.average-header-subHeading {
+    opacity: .45;
+    font-weight: 300;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.average-subText {
+    opacity: 0.45;
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 300;
+    letter-spacing: 0.75;
+}
+
+.average-heading {
+    padding-bottom: 10px;
+    font-size: 80px;
+    font-weight: 400;
+}
+
+span {
+    color: #ffffff;
+}
+
+.average-subText2 {
+    opacity: 0.45;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.75;
+}
+
+.image {
+    width: 100%;
+    padding: 20px 0px 20px;
+}
+
+.crypto-table table {
+    margin: 0px auto;
+    padding-right: 25px;
+    padding-left: 25px;
+    border-collapse: separate;
+    border-spacing: 0 1em;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.responsive-table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+.crypto-table tbody tr {
+    background-color: #2e3241;
+    border-spacing: 20px 0px;
+    margin-top: 10px;
+}
+
+.align-middle {
+    vertical-align: middle;
+}
+
+.crypto-table td {
+    color: #ffffff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.crypto-table td:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.crypto-table td:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.crypto-table td h4 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    opacity: 1;
+    margin: 0;
+    display: block;
+}
+
+.table-text {
+    white-space: nowrap;
+    color: #ffffff;
+    align-items: center;
+    font-weight:500;
+    opacity: 0.45;
+}
+
+.image-2 {
+    height: 25px;
+    width: 25px;
+}
+
+.color-red {
+    color: red;
+}
+
+.color-green {
+    color: rgb(61, 198, 193);
+}
+
+.red-ruppee {
+    color: red;
+}
+
+.green-ruppee {
+    color: rgb(61, 198, 193);
+}
+
+.brand-name {
+    color: #ffffff;
+}
+
+.brand-name-green {
+    color: rgb(61, 198, 193);
+}
+
+.padding-header {
+    padding: 20px;
+}
+
+.image-7 {
+    width: 100%;
+}
+
+.timer {
+    color: rgb(61, 198, 193);
+}
